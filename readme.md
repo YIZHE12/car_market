@@ -6,6 +6,9 @@ Through some limited market research we’ve discovered a strong regional demand
 What are some promising markets for Honda to expand to? What makes it promising? How do we know that we’re not over saturating the market or expanding into a hostile market? 
 Are there any other interesting insights or trends that are actionable?
 
+## Data
+I have uploaed the external demographic data that I downloaded from the (US Census Bureau)[https://www.census.gov/data.html] here. The car sell data was scrapped from Craigslist, it can be downloaded (here)[https://drive.google.com/file/d/1GhU4ekpsQv68RgqSUoCWJQ11DAhEbQ3F/view?usp=sharing]
+
 ## Insight
 While we could use cosine similarity to find which city is similar to Omaha. It will be difficult to convert different categorical data. Therefore, here, I work on the opposite problem. Two cities that are similar will be difficult to seperate, in other words, classified. Therefore, what I need to do is to make a classification, and then look at the confusion matrix's score to see which cities are more likely to classified as Omaha.
 
