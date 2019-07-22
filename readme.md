@@ -1,4 +1,4 @@
-# Lookiing similarity between car markets
+# Find similar car markets
 ## Background
 You’re on the data science team at Honda. Your team is trying to understand regional automotive demand in the United States, as you plan your manufacturing goals. 
 
