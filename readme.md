@@ -17,8 +17,10 @@ As we show here, Honda is not the dominant brand in Omaha. Therefore, the market
 
 
 ### Top picks
+<img src = 'city_confuse_final.jpg'>
 By plotting the row of omaha in our classification's confusion matrix, two cities stand out: Des Moines and Lincoln, both of which is geographically close to omaha. By acquiring external demographic data we can see other reasons behind this similarity:
 <img src = 'demography_cities.png'>
+
 
 
 ## State level advice
