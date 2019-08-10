@@ -24,11 +24,9 @@ By plotting the row of omaha in our classification's confusion matrix, two citie
 
 #### State level top picks
 
-From the data, we can also extract some information at the state level instead of city. I gather extra data from the US Census Bureun in state population and vehicles owned per capital in each state. As we can estimate that: 
+From the data, we can also extract some information at the state level instead of city. I gather extra data from the US Census Bureun in state population and vehicles owned per capital in each state. As we can estimate that: Market size = population * car ownership per capita.
 
-Market size = population * car ownership per capita
-
-By dividing the current car sale by the market size, we can see which states' market is saturated and which is not:
+By dividing the current car sale by the market size, we can see which states' market is saturated and which is not. In the barplot below, the lower the bar, the less market saturation, thus, more promising market.
 
 <img src = 'car_sell_per_person_corrected.jpg'>
 
