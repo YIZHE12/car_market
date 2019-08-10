@@ -30,5 +30,8 @@ By dividing the current car sale by the market size, we can see which states' ma
 
 <img src = 'car_sell_per_person_corrected.jpg'>
 
+## Conclusions:
+In this repo, I show how to use machine learning method to find promising market for expansion. However, this is a very simplied model. In reality, we should also look at the competitiors at the market we would like to expand. For example, how many competitiors are there, what size are they? If the market is dominated by one single player, it may be difficult to expand. 
+
 
 
