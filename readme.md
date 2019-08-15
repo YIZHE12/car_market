@@ -6,7 +6,9 @@ We have discovered a strong regional demand for Honda in Omaha, NE and would lik
 I have uploaed the external demographic data that I downloaded from the [US Census Bureau](https://www.census.gov/data.html) here. The car sell data was scrapped from Craigslist, it can be downloaded [here](https://drive.google.com/file/d/1GhU4ekpsQv68RgqSUoCWJQ11DAhEbQ3F/view?usp=sharing).
 
 ## Insight
-While we could use cosine similarity to find which city is similar to Omaha. It will be difficult to convert different categorical data. Two cities that are similar will be difficult to be distinguish from one to another in classification. Therefore, instead of using cosine similarity comparision, I first develop a classification on the city level, and then look at the confusion matrix's score of the classification prediction to see which cities are more likely to misclassified as Omaha.
+There are three main methods to find similarities between two items: cosine, dot product and Euclidean distance. Cosine is not sensitive to the length of the vector, therefore, can be used for data with features that at in different scales.
+
+While we could use cosine similarity to find which city is similar to Omaha. It will still be difficult to convert different categorical data. Two cities that are similar will be difficult to be distinguish from one to another in classification. Therefore, instead of using cosine similarity comparision, I first develop a classification on the city level, and then look at the confusion matrix's score of the classification prediction to see which cities are more likely to misclassified as Omaha.
 
 ## Results
 
